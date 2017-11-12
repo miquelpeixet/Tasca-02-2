@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(199, 197, 188);
+    font-family: arial
+}
+h1 {
+    color: rgb(46, 40, 40);
+    text-align: center;
+    background-color: orange
+}
+h2 {
+    color: (46,40,40);
+    text-align: left;
+    background-color: rgb(233, 158, 27)
+}
+h3 {
+    color: (46,40,40);
+    text-align: left;
+    background-color: rgb(235, 180, 92)    
+}
+table {
+
+border-collapse: collapse;
+width: 50%;
+
+}
+
+td, th {
+border: 1px solid black;
+text-align: center;
+padding: 12px;
+}
+
+tr:nth-child(even) {
+background-color: #f79355;
+}
+tr:nth-child(odd) {
+    background-color: #e4b185
+}
